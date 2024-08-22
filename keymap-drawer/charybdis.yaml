@@ -1,6 +1,46 @@
 layers:
-  BASE: [TAB, Q, W, E, R, T, Y, U, I, O, P, BACK SPACE, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LEFT SHIFT, Z, X, C, V, B, N, M, ',', ., /, RIGHT SHIFT, LEFT ALT,
-    ENTER, NUM, NAV, SPACE]
+  BASE:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BACK SPACE
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, h: '3'}
+  - ''''
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RIGHT SHIFT
+  - LEFT ALT
+  - ENTER
+  - NUM
+  - NAV
+  - SPACE
   NUM:
   - ESC
   - ''
@@ -124,7 +164,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
@@ -162,7 +202,7 @@ layers:
   - {t: ▽, type: trans}
   - L CLK
   - R CLK
-  - '3'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
