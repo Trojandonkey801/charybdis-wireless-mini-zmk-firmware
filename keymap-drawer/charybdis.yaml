@@ -31,7 +31,7 @@ layers:
   - V
   - B
   - N
-  - M
+  - {t: M, h: '5'}
   - ','
   - .
   - {t: /, h: '4'}
@@ -198,8 +198,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '3'
-  - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - L CLK
   - R CLK
   - {t: ▽, type: trans}
@@ -232,7 +232,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
