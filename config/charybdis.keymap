@@ -62,8 +62,6 @@
             bindings = <&mo 0>, <&to 0>;
         };
 */
-
-        m
     };
 
     combos {
