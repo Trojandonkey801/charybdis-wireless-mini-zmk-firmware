@@ -1,6 +1,6 @@
 layers:
-  BASE: [TAB, Q, W, E, R, T, Y, U, I, O, P, BACK SPACE, LCTRL, A, S, D, LEFT SHIFT, G, H, J, K, L, ;, '''', LEFT SHIFT, Z, X, C, V, B, N, M, ',', ., /, RIGHT SHIFT,
-    LEFT ALT, ENTER, NUM, NAV, SPACE]
+  BASE: [TAB, Q, W, E, R, T, Y, U, I, O, P, BACK SPACE, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LEFT SHIFT, Z, X, C, V, B, N, M, ',', ., /, RIGHT SHIFT, LEFT ALT,
+    ENTER, NUM, NAV, SPACE]
   NUM:
   - ESC
   - ''
