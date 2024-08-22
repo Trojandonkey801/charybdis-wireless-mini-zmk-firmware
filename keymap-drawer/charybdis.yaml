@@ -20,10 +20,10 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - ''
-  - ''
-  - L CLK
-  - R CLK
-  - ''
+  - LEFT
+  - DOWN
+  - UP ARROW
+  - RIGHT
   - ''
   - ''
   - LEFT SHIFT
@@ -33,8 +33,8 @@ layers:
   - ''
   - ''
   - ''
-  - M CLK
-  - ''
+  - L CLK
+  - R CLK
   - ''
   - ''
   - RSHIFT
