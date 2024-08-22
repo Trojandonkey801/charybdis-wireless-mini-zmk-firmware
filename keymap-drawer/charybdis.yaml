@@ -188,8 +188,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - L CLK
-  - R CLK
+  - ''
+  - ''
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
