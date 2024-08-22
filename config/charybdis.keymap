@@ -19,6 +19,7 @@
     };
 
     behaviors {
+/*
         hm: homerow_mod {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -60,6 +61,7 @@
             #binding-cells = <0>;
             bindings = <&mo 0>, <&to 0>;
         };
+*/m
     };
 
     combos {
