@@ -34,7 +34,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: '3'}
   - RIGHT SHIFT
   - LEFT ALT
   - ENTER
