@@ -19,7 +19,7 @@
     };
 
     behaviors {
-/*
+        /*
         hm: homerow_mod {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -61,7 +61,9 @@
             #binding-cells = <0>;
             bindings = <&mo 0>, <&to 0>;
         };
-*/m
+*/
+
+        m
     };
 
     combos {
@@ -134,7 +136,7 @@
         layer_4 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans
             >;
