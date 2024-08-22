@@ -145,8 +145,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - L CLK
-  - R CLK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -251,12 +251,3 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-combos:
-- p: [8, 9]
-  k: DELETE
-  l: [BASE]
-- p: [17, 18]
-  k: CAPS WORD
-  l: [BASE]
-- p: [38, 39]
-  k: L_BASE L_EXTRA
