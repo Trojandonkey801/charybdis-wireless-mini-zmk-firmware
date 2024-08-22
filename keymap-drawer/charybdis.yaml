@@ -37,10 +37,10 @@ layers:
   - {t: /, h: '3'}
   - RIGHT SHIFT
   - LEFT ALT
-  - ENTER
+  - {t: ENTER, h: NUM}
   - NUM
   - NAV
-  - SPACE
+  - {t: SPACE, h: NAV}
   NUM:
   - ESC
   - ''
@@ -79,8 +79,8 @@ layers:
   - ''
   - RSHIFT
   - LGUI
-  - ENTER
-  - {type: held}
+  - {t: ENTER, type: held}
+  - ''
   - '0'
   - SPACE
   NAV:
