@@ -34,7 +34,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: '4'}
   - RIGHT SHIFT
   - LEFT ALT
   - {t: ENTER, h: NUM}
@@ -190,7 +190,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - {t: '3', type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -199,10 +199,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '3'
   - L CLK
   - R CLK
-  - '3'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
