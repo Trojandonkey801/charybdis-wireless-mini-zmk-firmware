@@ -75,7 +75,7 @@ layers:
   - ''
   - L CLK
   - R CLK
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - LGUI
