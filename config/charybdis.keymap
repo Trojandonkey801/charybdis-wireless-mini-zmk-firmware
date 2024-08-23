@@ -99,6 +99,56 @@
             key-positions = <38 39>;
         };
  */
+
+        onenumb {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <40 31>;
+        };
+
+        two {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <40 32>;
+        };
+
+        three {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <40 33>;
+        };
+
+        four {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <40 19>;
+        };
+
+        five {
+            bindings = <&kp N5>;
+            key-positions = <40 20>;
+        };
+
+        six {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <40 21>;
+        };
+
+        seven {
+            bindings = <&kp N7>;
+            key-positions = <40 7>;
+        };
+
+        eight {
+            bindings = <&kp N8>;
+            key-positions = <40 8>;
+        };
+
+        nine {
+            bindings = <&kp N9>;
+            key-positions = <40 9>;
+        };
+
+        zero {
+            bindings = <&kp N0>;
+            key-positions = <40 37>;
+        };
     };
 
     macros {
