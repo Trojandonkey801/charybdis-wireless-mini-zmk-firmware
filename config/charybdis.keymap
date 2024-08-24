@@ -100,11 +100,6 @@
             key-positions = <38 39>;
         };
  */
-
-        layer1 {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <0 36>;
-        };
     };
 
     macros {
