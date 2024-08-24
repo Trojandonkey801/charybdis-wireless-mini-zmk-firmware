@@ -120,6 +120,13 @@
             bindings = <&kp LEFT_SHIFT &kp SEMI &kp LS(S) &kp LS(P) &kp RET>;
             label = "HSPLIT";
         };
+
+        alt_tab: alt_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp TAB>;
+            label = "ALT_TAB";
+        };
     };
 
     keymap {
@@ -127,28 +134,28 @@
 
         BASE {
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R      &kp T    &kp Y  &kp U      &kp I      &kp O         &kp P          &kp BACKSPACE
-&kp LCTRL       &kp A  &kp S  &kp D         &kp F      &kp G    &kp H  &kp J      &kp K      &kp L         &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V      &kp B    &kp N  &kp M      &kp COMMA  &lt 3 PERIOD  &lt 4 SLASH    &kp RIGHT_SHIFT
-                              &kp LEFT_ALT  &kp ENTER  &mo 1    &mo 2  &kp SPACE
+&kp TAB         &kp Q  &kp W  &kp E  &kp R      &kp T    &kp Y  &kp U      &kp I      &kp O         &kp P          &kp BACKSPACE
+&kp LCTRL       &kp A  &kp S  &kp D  &kp F      &kp G    &kp H  &kp J      &kp K      &kp L         &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V      &kp B    &kp N  &kp M      &kp COMMA  &lt 3 PERIOD  &lt 4 SLASH    &kp RIGHT_SHIFT
+                              &mo 2  &kp ENTER  &mo 1    &mo 2  &kp SPACE
             >;
         };
 
         NUM {
             bindings = <
-&kp ESC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &none     &none      &none         &none      &none  &trans
-&trans   &none  &none         &none         &none         &none           &kp LEFT  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &none  &none
-&trans   &none  &none         &none         &none         &bt BT_CLR      &none     &mkp LCLK  &mkp RCLK     &trans     &none  &trans
-                              &kp LGUI      &kp ENTER     &none           &kp N0    &kp SPACE
+&kp GRAVE  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &none     &none      &none         &none      &none  &trans
+&trans     &none  &none         &none         &none         &none           &kp LEFT  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &none  &none
+&trans     &none  &none         &none         &none         &bt BT_CLR      &none     &mkp LCLK  &mkp RCLK     &trans     &none  &trans
+                                &kp LGUI      &kp ENTER     &none           &kp N0    &kp SPACE
             >;
         };
 
         NAV {
             bindings = <
-&kp GRAVE  &none     &none      &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &none     &none    &kp N7        &kp N8        &kp N9        &none  &kp DELETE
-&trans     &kp PLUS  &kp MINUS  &kp UNDERSCORE         &kp EQUAL          &trans    &VSplit  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &none
-&none      &none     &none      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &none     &HSplit  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &trans
-                                &none                  &kp N0             &trans    &trans   &trans
+&alt_tab  &kp ESCAPE  &none      &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &none     &none    &kp N7        &kp N8        &kp N9        &none  &kp DELETE
+&trans    &kp PLUS    &kp MINUS  &kp UNDERSCORE         &kp EQUAL          &trans    &VSplit  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &none
+&none     &none       &none      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &none     &HSplit  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &trans
+                                 &none                  &kp N0             &trans    &trans   &trans
             >;
         };
 
