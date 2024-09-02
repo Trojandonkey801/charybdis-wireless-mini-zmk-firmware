@@ -16,6 +16,11 @@
             if-layers = <1 3>;
             then-layer = <4>;
         };
+
+        scroll {
+            if-layers = <5 3>;
+            then-layer = <4>;
+        };
     };
 
     behaviors {
