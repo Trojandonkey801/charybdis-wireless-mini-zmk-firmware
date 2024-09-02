@@ -13,13 +13,13 @@
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <4 3>;
-            then-layer = <5>;
+            if-layers = <3 3>;
+            then-layer = <4>;
         };
 
         hh {
             if-layers = <1 3>;
-            then-layer = <5>;
+            then-layer = <4>;
         };
     };
 
@@ -124,7 +124,7 @@
             bindings = <
 &kp TAB         &kp Q  &kp W  &kp E  &kp R      &kp T    &kp Y  &kp U      &kp I      &kp O         &kp P          &kp BACKSPACE
 &kp LCTRL       &kp A  &kp S  &kp D  &kp F      &kp G    &kp H  &kp J      &kp K      &kp L         &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V      &kp B    &kp N  &kp M      &kp COMMA  &lt 4 PERIOD  &kp SLASH      &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V      &kp B    &kp N  &kp M      &kp COMMA  &lt 3 PERIOD  &kp SLASH      &kp RIGHT_SHIFT
                               &mo 2  &kp ENTER  &mo 1    &mo 2  &kp SPACE
             >;
         };
@@ -144,15 +144,6 @@
 &trans   &kp PLUS    &kp MINUS  &kp UNDERSCORE         &kp EQUAL          &trans          &trans    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &none
 &none    &none       &none      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp LEFT_ALT    &kp LALT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &trans
                                 &none                  &kp N0             &trans          &trans    &kp N0
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
             >;
         };
 
